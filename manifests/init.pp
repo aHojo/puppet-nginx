@@ -46,7 +46,6 @@ class nginx (
  String $ensure                       = $nginx::params::ensure,
  String $package_name                 = $nginx::params::package_name,
  String $config_dir                   = $nginx::params::config_dir,
- String $config_ensure                = $nginx::params::config_ensure,
  String $config_mode                  = $nginx::params::config_mode,
  String $config_owner                 = $nginx::params::config_owner,
  String $config_group                 = $nginx::params::config_group,
