@@ -4,7 +4,7 @@ user <%= @process_user %>;
 worker_processes 512;
 
 error_log <%= @log_dir%>/error.log;
-pid       <%= pid_file %>
+pid       <%= @pid_file %>
 
 events {
   worker_connections 1024;
